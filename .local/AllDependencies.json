@@ -533,6 +533,15 @@
           "lib/net45/NPOI.dll": {}
         }
       },
+      "RenameFile.Activities/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Rename File.dll": {}
+        }
+      },
       "SharpZipLib/1.2.0": {
         "type": "package",
         "compile": {
@@ -1999,6 +2008,15 @@
           "lib/net45/NPOI.OpenXml4Net.dll": {},
           "lib/net45/NPOI.OpenXmlFormats.dll": {},
           "lib/net45/NPOI.dll": {}
+        }
+      },
+      "RenameFile.Activities/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Rename File.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -3768,6 +3786,17 @@
         "npoi.nuspec"
       ]
     },
+    "RenameFile.Activities/1.0.4": {
+      "sha512": "ADQ1IlQ1Cdm39Sb2Qm9sfAnxNJyQZUfwWRnjjYQfHDwe+qNFaKL+exKsWrlGkMDcW3F5dv73yhUN2I/lsteXEw==",
+      "type": "package",
+      "path": "renamefile.activities/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "lib/Rename File.dll",
+        "renamefile.activities.1.0.4.nupkg.sha512",
+        "renamefile.activities.nuspec"
+      ]
+    },
     "SharpZipLib/1.2.0": {
       "sha512": "zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
       "type": "package",
@@ -5121,6 +5150,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "RenameFile.Activities >= 1.0.4 <= 1.0.4",
       "UiPath.Excel.Activities >= 2.11.0-preview <= 2.11.0-preview",
       "UiPath.System.Activities >= 21.6.1-preview <= 21.6.1-preview",
       "UiPath.UIAutomation.Activities >= 21.6.1-preview <= 21.6.1-preview"
@@ -5140,6 +5170,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "RenameFile.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.4, 1.0.4]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

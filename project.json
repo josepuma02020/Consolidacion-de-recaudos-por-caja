@@ -3,6 +3,7 @@
   "description": "Consolidacion de recaudos por caja",
   "main": "Main.xaml",
   "dependencies": {
+    "RenameFile.Activities": "[1.0.4]",
     "UiPath.Excel.Activities": "[2.11.0-preview]",
     "UiPath.System.Activities": "[21.6.1-preview]",
     "UiPath.UIAutomation.Activities": "[21.6.1-preview]"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qiXIn8zzi/KEbbwCiKWezijQhx0G1hT/bxRYbdAUaKU7F8ed6OH8yDz93jwdwPWCAFkdSxS9XGHFaob07x1peg==",
+  "dgSpecHash": "zvcAIDaq0CqtChFO1sVFzKYTC5znKppx+LgzycEi1t37QRAthpHrobrgKXdyzklHyFOpvP7BmangspC6NLvN8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jpumarej\\Documents\\UiPath\\Consolidacion de recaudos por caja\\.local\\",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\microsoft.visualstudio.ole.interop.16.7.30328.74.nupkg.sha512",
     "C:\\Users\\jpumarej\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\jpumarej\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
+    "C:\\Users\\jpumarej\\.nuget\\packages\\renamefile.activities\\1.0.4\\renamefile.activities.1.0.4.nupkg.sha512",
     "C:\\Users\\jpumarej\\.nuget\\packages\\sharpziplib\\1.2.0\\sharpziplib.1.2.0.nupkg.sha512",
     "C:\\Users\\jpumarej\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\jpumarej\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
