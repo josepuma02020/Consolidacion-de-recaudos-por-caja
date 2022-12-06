@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>495.2,1300.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1793.33333333333,1312</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Login_SAC_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -77,28 +77,29 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login_SAC" sap:VirtualizedContainerService.HintSize="475.2,1240.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login_SAC" sap:VirtualizedContainerService.HintSize="476,1247.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[clave]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Nueva pestaña" sap:VirtualizedContainerService.HintSize="433.6,1015.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+    <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="434,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[clave]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Nueva pestaña" sap:VirtualizedContainerService.HintSize="434,1020.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,798.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,802.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Escribir en 'INPUT ContentPlaceHolde…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334.4,228" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[in_out_config(&quot;UsuarioSAC&quot;).ToString]">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Escribir en 'INPUT ContentPlaceHolde…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,230" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[in_out_config(&quot;UsuarioSAC&quot;).ToString]">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://essa-ws12.essa.com.co:9095/GEN/Vistas/Login/LOGIN_GEN.aspx" DesignTimeRectangle="827, 505, 345, 57" ElementType="InputBox" FriendlyName="'INPUT ContentPlaceHolde…'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAV0AAAA9CAYAAAAOC7pZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASmSURBVHhe7dtRa+JYGIDh/f//QLFkyJDWHWl2lXQdYWRDBxdkxOIMtkN3LN066yArSEu9/vYck5gY020t+K3ge/HANDk5Or14G0+OPy0WCwEA6CC6AKCI6AKAIqILAIqILgAoIroAoIjoAoAiogsAioguACgiugCgiOgCgCKiCwCKiC4AKCK6AKCI6AKAIqILAIqILgAoIroAoIjoAoAiogsAioguACgiugCgiOgCgKIdRXcg9VJJSqW6DArPx+5C8ew4L5Rx0fl9Naib/1tJvHBcfB4AnkB0X4PoAnglogsAioguACjaz+hOr6TTqEqlbOcwyhVxTurS+Tpdu37QsOc9Ce8y1z5zbvq1I/UT59m5kyWE+sVEeg03Gltxxe+On15euB/LoO2LexTPbVSK5gZwsPYvujNzrWOOmRi67+oSnAUSnHpxJB0JvsxX128b3dvQW4awVHal1jDzmrn940p0zMzdvMzMEYfVdU1wy574y7Fmvpv03Fp0zfsO3th5jKPqcnz6vu3Y23QsgIO1d9GdfIzC6H+arY/91hbX3pWeDeQhPrZVdOc98W0AHfOeZutjZ5/85WuWzobp8TispbIvvdz4zejOzetF8fY+XMssO3baj/6I5KMO4CDtXXTH8d2o1x6t4vqUraI7bIljPvYX7jhI3kdjkB5Lonvak3l2bObcai4bdDv2qCnDx9xYY96Lo56dH8BB2r/lhbtz8ZL11ooj1dOWhP1rmcwz18W2im7G/J+pjP8cSL8bSqtRE7cSv15BdN3fC5YF8tE1d+FO/vqsJMr5tWsAB+f/je5fobh23PG5TDLHH773JThJ1lpTleNA+n+n47aN7uQiEC8JbMKuHR+7UrH/Lohu4Z1x/lz889N3svHvg+gCB29H0b2V8K2NmifnmUhuuHgmVvczub3sStjy01g6TbmKP8JvE935lyC6G3Wq0uoM5Pr7VKazh2j8fywvvCi63OkCeKEdRTeJXkmqnUnheWv4W3Q3W/0j2VI1ke6p3c7lS29jOWEinRM7ZxrS6DUcaX/Ljx1Je7mTID+2Is1hfqxRdKe6TXRZ0wXwQjuL7uKyGd39lV1pfp6uPxR7nMuoU4vPV6XzIz03akd7YjcepN1fS8u149MgJw/d3A+jdJwx6frRcsFGdEtS6+Z2Rax2FxivjS67FwC80O6iu5jJ8H38pQLLbvd64xiZtdqyI8EgF8H5UIIkgm5N6na/a+Zh19p+1x8dqcYP3SrHvgRndam5Zn4zb+1n+9oFywtGsv+3/i5+f2/daG05+/F/q+gaz+zTdd8P12MM4CDtMLqR6U1XWiZuTvYB1pErtbOOXE2Lr1nMrpffSMteY7/ZFX4eb2wjsw/d7PxJ3Oy47s1DfBecRteaXLSiKCdzmqi3uiOZPo4l9Myx7LLGttG17sfSb5k/EMk30p76thuAg7Xz6AIAUkQXABQRXQBQRHQBQBHRBQBFRBcAFBFdAFBEdAFAEdEFAEVEFwAUEV0AUER0AUAR0QUARUQXABQRXQBQRHQBQBHRBQBFRBcAFBFdAFC0iu7RL78CAHaE6AKAIqILAIo2ogsA2LWF/AvM06XA7myojQAAAABJRU5ErkJggg==" InformativeScreenshot="10f519faf6aa4fa4f7991e008e9aaaef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -109,7 +110,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Escribir en 'I'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334.4,228" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="POZLZG43">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Escribir en 'I'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,230" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[clave]">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://essa-ws12.essa.com.co:9095/GEN/Vistas/Login/LOGIN_GEN.aspx" DesignTimeRectangle="827, 607, 345, 57" ElementType="InputBoxPassword" FriendlyName="'INPUT txtPassword'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" ImageBase64="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" InformativeScreenshot="44c6c739a6043047d333ba6b5ba16bc6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, Image">
                   <uix:TargetAnchorable.Anchors>

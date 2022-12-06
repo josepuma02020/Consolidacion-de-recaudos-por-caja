@@ -2,6 +2,16 @@
   "Packages": [
     {
       "Package": {
+        "Id": "RenameFile.Activities",
+        "Version": "1.0.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\renamefile.activities/1.0.4\\lib/Rename File.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\renamefile.activities\\1.0.4"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.11.0-preview"
       },
@@ -39,7 +49,7 @@
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/6.0.0\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.codeanalysis.common/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.dll",
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.codeanalysis.csharp/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll",
         "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.codeanalysis.visualbasic/3.8.0\\lib/netstandard2.0/Microsoft.CodeAnalysis.VisualBasic.dll",
@@ -120,13 +130,39 @@
     },
     {
       "Package": {
-        "Id": "RenameFile.Activities",
-        "Version": "1.0.4"
+        "Id": "UiPath.Form.Activities",
+        "Version": "2.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\jpumarej\\.nuget\\packages\\renamefile.activities/1.0.4\\lib/Rename File.dll"
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters/2.0.35\\lib/net451/H.Formatters.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters.binaryformatter/2.0.35\\lib/net451/H.Formatters.BinaryFormatter.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.pipes/2.0.35\\lib/net461/H.Pipes.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/6.0.0\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2/1.0.1264.42\\lib/net45/Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2/1.0.1264.42\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2/1.0.1264.42\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.drawing.common/5.0.2\\lib/net461/System.Drawing.Common.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.resources.extensions/5.0.0\\lib/net461/System.Resources.Extensions.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities/2.0.3\\lib/net461/System.Resources.Extensions.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities/2.0.3\\lib/net461/UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities/2.0.3\\lib/net461/UiPath.Form.Activities.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary/2.0.3\\lib/net461/UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary/2.0.3\\lib/net461/UiPath.Form.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary/2.0.3\\lib/net461/UiPath.Form.Host.Local.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary/2.0.3\\lib/net461/UiPath.OutOfProcessUi.Common.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary.contracts/2.0.3\\lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\renamefile.activities\\1.0.4"
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities\\2.0.3"
     }
   ],
   "Conflicts": [],
@@ -159,6 +195,35 @@
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
       "Dependencies": []
+    },
+    "H.Formatters": {
+      "Id": "H.Formatters",
+      "Version": "2.0.35",
+      "Dependencies": []
+    },
+    "H.Formatters.BinaryFormatter": {
+      "Id": "H.Formatters.BinaryFormatter",
+      "Version": "2.0.35",
+      "Dependencies": [
+        {
+          "Item1": "H.Formatters",
+          "Item2": "[2.0.35, )"
+        }
+      ]
+    },
+    "H.Pipes": {
+      "Id": "H.Pipes",
+      "Version": "2.0.35",
+      "Dependencies": [
+        {
+          "Item1": "H.Formatters.BinaryFormatter",
+          "Item2": "[2.0.35, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[6.0.0, )"
+        }
+      ]
     },
     "Microsoft.AspNet.SignalR.Client": {
       "Id": "Microsoft.AspNet.SignalR.Client",
@@ -308,7 +373,7 @@
     },
     "Microsoft.Bcl.AsyncInterfaces": {
       "Id": "Microsoft.Bcl.AsyncInterfaces",
-      "Version": "1.1.1",
+      "Version": "6.0.0",
       "Dependencies": [
         {
           "Item1": "System.Threading.Tasks.Extensions",
@@ -508,6 +573,11 @@
       "Version": "16.7.30328.74",
       "Dependencies": []
     },
+    "Microsoft.Web.WebView2": {
+      "Id": "Microsoft.Web.WebView2",
+      "Version": "1.0.1264.42",
+      "Dependencies": []
+    },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
       "Version": "11.0.2",
@@ -551,6 +621,11 @@
     "System.ComponentModel.Annotations": {
       "Id": "System.ComponentModel.Annotations",
       "Version": "4.7.0",
+      "Dependencies": []
+    },
+    "System.Drawing.Common": {
+      "Id": "System.Drawing.Common",
+      "Version": "5.0.2",
       "Dependencies": []
     },
     "System.IO.Abstractions": {
@@ -611,6 +686,16 @@
         {
           "Item1": "System.Collections.Immutable",
           "Item2": "[5.0.0, )"
+        }
+      ]
+    },
+    "System.Resources.Extensions": {
+      "Id": "System.Resources.Extensions",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
         }
       ]
     },
@@ -735,6 +820,88 @@
         {
           "Item1": "NPOI",
           "Item2": "[2.4.1, )"
+        }
+      ]
+    },
+    "UiPath.Form.Activities": {
+      "Id": "UiPath.Form.Activities",
+      "Version": "2.0.3",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Web.WebView2",
+          "Item2": "[1.0.1264.42, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "System.Resources.Extensions",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary",
+          "Item2": "[2.0.3, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary": {
+      "Id": "UiPath.FormActivityLibrary",
+      "Version": "2.0.3",
+      "Dependencies": [
+        {
+          "Item1": "H.Pipes",
+          "Item2": "[2.0.35, )"
+        },
+        {
+          "Item1": "Microsoft.Web.WebView2",
+          "Item2": "[1.0.1264.42, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[5.0.2, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary.Contracts",
+          "Item2": "[2.0.3, )"
+        },
+        {
+          "Item1": "UiPath.WebView2.Runtime.x86",
+          "Item2": "[0.1.0, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary.Contracts": {
+      "Id": "UiPath.FormActivityLibrary.Contracts",
+      "Version": "2.0.3",
+      "Dependencies": [
+        {
+          "Item1": "System.Resources.Extensions",
+          "Item2": "[5.0.0, )"
         }
       ]
     },
@@ -903,6 +1070,11 @@
           "Item2": "[2.8.0-preview, )"
         }
       ]
+    },
+    "UiPath.WebView2.Runtime.x86": {
+      "Id": "UiPath.WebView2.Runtime.x86",
+      "Version": "0.1.0",
+      "Dependencies": []
     }
   },
   "AllPackages": [
@@ -935,6 +1107,36 @@
         "C:\\Users\\jpumarej\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
       ],
       "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+    },
+    {
+      "Package": {
+        "Id": "H.Formatters",
+        "Version": "2.0.35"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters\\2.0.35\\lib\\net451\\H.Formatters.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters\\2.0.35"
+    },
+    {
+      "Package": {
+        "Id": "H.Formatters.BinaryFormatter",
+        "Version": "2.0.35"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters.binaryformatter\\2.0.35\\lib\\net451\\H.Formatters.BinaryFormatter.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\h.formatters.binaryformatter\\2.0.35"
+    },
+    {
+      "Package": {
+        "Id": "H.Pipes",
+        "Version": "2.0.35"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\h.pipes\\2.0.35\\lib\\net461\\H.Pipes.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\h.pipes\\2.0.35"
     },
     {
       "Package": {
@@ -1029,12 +1231,12 @@
     {
       "Package": {
         "Id": "Microsoft.Bcl.AsyncInterfaces",
-        "Version": "1.1.1"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
-      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0"
     },
     {
       "Package": {
@@ -1206,6 +1408,18 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Web.WebView2",
+        "Version": "1.0.1264.42"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\lib\\net45\\Microsoft.Web.WebView2.Core.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\lib\\net45\\Microsoft.Web.WebView2.WinForms.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\lib\\net45\\Microsoft.Web.WebView2.Wpf.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42"
+    },
+    {
+      "Package": {
         "Id": "Newtonsoft.Json",
         "Version": "11.0.2"
       },
@@ -1279,6 +1493,16 @@
     },
     {
       "Package": {
+        "Id": "System.Drawing.Common",
+        "Version": "5.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib\\net461\\System.Drawing.Common.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\system.drawing.common\\5.0.2"
+    },
+    {
+      "Package": {
         "Id": "System.IO.Abstractions",
         "Version": "3.0.10"
       },
@@ -1336,6 +1560,16 @@
         "C:\\Users\\jpumarej\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\net461\\System.Reflection.Metadata.dll"
       ],
       "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Resources.Extensions",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\system.resources.extensions\\5.0.0\\lib\\net461\\System.Resources.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\system.resources.extensions\\5.0.0"
     },
     {
       "Package": {
@@ -1442,6 +1676,41 @@
     },
     {
       "Package": {
+        "Id": "UiPath.Form.Activities",
+        "Version": "2.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities\\2.0.3\\lib\\net461\\System.Resources.Extensions.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities\\2.0.3\\lib\\net461\\UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities\\2.0.3\\lib\\net461\\UiPath.Form.Activities.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.form.activities\\2.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary",
+        "Version": "2.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary\\2.0.3\\lib\\net461\\UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary\\2.0.3\\lib\\net461\\UiPath.Form.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary\\2.0.3\\lib\\net461\\UiPath.Form.Host.Local.dll",
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary\\2.0.3\\lib\\net461\\UiPath.OutOfProcessUi.Common.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary\\2.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary.Contracts",
+        "Version": "2.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\2.0.3\\lib\\net461\\UiPath.Form.ActivityLibrary.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\2.0.3"
+    },
+    {
+      "Package": {
         "Id": "UiPath.ImageProcessing",
         "Version": "21.6.0-preview"
       },
@@ -1538,6 +1807,14 @@
         "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.vision\\3.1.0-preview\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.vision\\3.1.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebView2.Runtime.x86",
+        "Version": "0.1.0"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\jpumarej\\.nuget\\packages\\uipath.webview2.runtime.x86\\0.1.0"
     }
   ]
 }
